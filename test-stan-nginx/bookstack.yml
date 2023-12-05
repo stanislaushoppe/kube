@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: bookstack
-  replicas: 3
+  replicas: 1
   template:
     metadata:
       labels:
@@ -27,7 +27,7 @@ spec:
   selector:
     matchLabels:
       app: mariadb
-  replicas: 3
+  replicas: 1
   template:
     metadata:
       labels:
