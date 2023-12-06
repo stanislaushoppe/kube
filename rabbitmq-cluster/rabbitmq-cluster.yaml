@@ -6,4 +6,4 @@ spec:
   selector:
     matchLabels:
       app: hello-world
-  replicas: 5
+  replicas: 3
