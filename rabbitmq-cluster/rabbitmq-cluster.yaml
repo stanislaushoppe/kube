@@ -2,3 +2,8 @@ apiVersion: rabbitmq.com/v1beta1
 kind: RabbitmqCluster
 metadata:
   name: hello-world
+spec:
+  selector:
+    matchLabels:
+      app: hello-world
+  replicas: 5
